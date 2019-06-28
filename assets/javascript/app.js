@@ -19,7 +19,7 @@ $(window).on("load", function() {
 
 // Back to Top button
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 90) {
         $('.back-to-top').fadeIn('slow');
     } else {
         $('.back-to-top').fadeOut('slow');
@@ -78,3 +78,15 @@ $(window).on('scroll', function() {
         $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
     }
 });
+
+// Typed
+if ($('.text-slider').length == 1) {
+    let typed_strings = $('.text-slider-items').text();
+    let typed = new Typed('.text-slider', {
+        strings: typed_strings.split(','),
+        typeSpeed: 80,
+        loop: true,
+        backDelay: 1100,
+        backSpeed: 30
+    });
+}
