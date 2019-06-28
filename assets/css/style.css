@@ -80,7 +80,7 @@ body {
   }
   
   .overlay-mf {
-    background-color: #0078ff;
+    background-color: #0892d0;
   }
   
   .overlay-mf {
@@ -461,32 +461,32 @@ body {
   
   .navbar-b.navbar-reduce {
     transition: all .5s ease-in-out;
-    background-color: #fff;
+    background-color: #011826;
     padding-top: 15px;
     padding-bottom: 15px;
   }
   
   .navbar-b.navbar-reduce .nav-link {
-    color: #0078ff;
+    color: #72C1F2;
   }
   
   .navbar-b.navbar-reduce .nav-link:before {
-    background-color: #0078ff;
+    background-color: #03588C;
   }
   
   .navbar-b.navbar-reduce .nav-link:hover {
-    color: #0078ff;
+    color: #03588C;
   }
   
   .navbar-b.navbar-reduce .show > .nav-link,
   .navbar-b.navbar-reduce .active > .nav-link,
   .navbar-b.navbar-reduce .nav-link.show,
   .navbar-b.navbar-reduce .nav-link.active {
-    color: #0078ff;
+    color: #03588C;
   }
   
   .navbar-b.navbar-reduce .navbar-brand {
-    color: #0078ff;
+    color: #4393D9;
   }
   
   .navbar-b.navbar-reduce .navbar-toggler span {

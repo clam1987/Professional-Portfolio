@@ -3,8 +3,8 @@ var nav = $("nav");
 var navHeight = nav.outerHeight();
 
 $(".navbar-toggler").on("click", function() {
-    if (! $('#Nav1').hasClass('navbar-reduce')) {
-        $("#Nav1").addClass('navbar-reduce');
+    if (! $('#mainNav').hasClass('navbar-reduce')) {
+        $("#mainNav").addClass('navbar-reduce');
     }
 });
 
@@ -34,18 +34,18 @@ $('.scrolltop-mf').on("click", function() {
 })
 
 // Scrolling Nav
-$('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
-    if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
-        let target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-            $('html, body').animate({
-                scrollTop: (target.offset().top - navHeight + 5)
-            }, 1000, "easeInOutExpo");
-            return false;
-        }
-    }
-});
+// $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
+//     if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
+//         let target = $(this.hash);
+//         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+//         if (target.length) {
+//             $('html, body').animate({
+//                 scrollTop: (target.offset().top - navHeight + 5)
+//             }, 1000, "easeInOutExpo");
+//             return false;
+//         }
+//     }
+// });
 
 // Close menu when scroll is clicked
 
@@ -56,7 +56,7 @@ $(".js-scroll").on("click", function () {
 // Active scrollspy
 
 $('body').scrollspy({
-    target: '#Nav1',
+    target: '#mainNav',
     offset: navHeight
 });
 
