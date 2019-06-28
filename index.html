@@ -2,101 +2,171 @@
 <html lang="en-us">
   <head>
     <title>About Me</title>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Materialize CDN -->
     <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     /> -->
     <!-- Bootstrap CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"
+  ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
     <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script> -->
 
     <!-- Other CDN's -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.css" rel="stylesheet">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+      rel="stylesheet"
+    />
 
     <!-- Main StyleSheet -->
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
 
-<body id="Top-Page">
-<!-- NavBar -->
-  <nav class="navbar navbar-b navbar-trans navabar-expand-md fixed-top" id="Nav1">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#top-page">Wilson Lam</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aira-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js scroll" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#resume">Résumé</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js scroll" href="contact">Contact Me</a>
-          </li>
-        </ul>
+  <body id="Top-Page">
+    <!-- NavBar -->
+    <nav
+      class="navbar navbar-b navbar-trans navabar-expand-md fixed-top"
+      id="Nav1"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="#Top-Page">Wilson Lam</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Nav1"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aira-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="navbar-collapse collapse justify-content-end"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js scroll" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#resume">Résumé</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js scroll" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Intro -->
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/images/Coding-Image.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!-- <p class="display-6 color-d">Hello World!</p> -->
-          <h1 class="intro-title mb-4">Hi! I am Wilson Lam</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Full-Stack Web Developer who excels at back-end and front-end!</span><strong class="text-slider"></strong></p>
+    <!-- Intro -->
+    <div
+      id="home"
+      class="intro route bg-image"
+      style="background-image: url(assets/images/Coding-Image.jpg)"
+    >
+      <div class="overlay-itro"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <!-- <p class="display-6 color-d">Hello World!</p> -->
+            <h1 class="intro-title mb-4">Hi! I am Wilson Lam</h1>
+            <p class="intro-subtitle">
+              <span class="text-slider-items"
+                >Full-Stack Web Developer who excels at back-end and
+                front-end!</span
+              ><strong class="text-slider"></strong>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-<!-- About Me -->
-<section id="about" class="about-mf sect-pt4 route">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="box-shadow-full">
-          <div class="row">
-            <div class="col-md-6">
+    <!-- About Me -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
               <div class="row">
-                <div class="col-sm-6 col-md-5">
-                  <div class="about-img">
-                    <img src="MyPic" class="img-fluid rounded b-shadow-a" alt="">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img
+                          src="MyPic"
+                          class="img-fluid rounded b-shadow-a"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 cold-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name:</span>Wilson Lam</p>
+                        <p>
+                          <span class="title-s">Profile:</span>Full-Stack
+                          Developer
+                        </p>
+                        <p>
+                          <span class="title-s">E-mail:</span
+                          >cwlam1987@gmail.com
+                        </p>
+                        <p><span class="title-s">Phone:</span>(626)537-8307</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-6 cold-md-7">
-                  <div class="about-info">
-                    <p><span class="title-s">Name:</span>Wilson Lam</p>
-                    <p><span class="title-s">Profile:</span>Full-Stack Developer</p>
-                    <p><span class="title-s">E-mail:</span>cwlam1987@gmail.com</p>
-                    <p><span class="title-s">Phone:</span>(626)537-8307</p>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="skill-mf">
+                  <!-- <div class="skill-mf">
                   <p class="title-s">Skill Mastery</p>
                   <span>HTML</span> <span class="pull-right">85%</span>
                   <div class="progress">
@@ -129,109 +199,80 @@
                       aria-valuemax="100"></div>
                   </div>
                 </div> -->
-            </div>
-            <div class="col-md-6">
-              <div class="about-me pt-4 pt-md-0">
-                <div class="title-box-2">
-                  <h5 class="title-left">
-                    About Me
-                  </h5>
                 </div>
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt expedita, veniam fugit quidem impedit molestias veritatis alias exercitationem animi modi iste. Itaque vero quo, ducimus dolore dolorem laboriosam quia neque et fugiat error iste omnis incidunt. Veniam aspernatur delectus labore eaque commodi minus, quam unde consectetur suscipit tempora, magni placeat!
-                </p>
-                <p class="lead">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt expedita, veniam fugit quidem impedit molestias veritatis alias exercitationem animi modi iste. Itaque vero quo, ducimus dolore dolorem laboriosam quia neque et fugiat error iste omnis incidunt. Veniam aspernatur delectus labore eaque commodi minus, quam unde consectetur suscipit tempora, magni placeat!
-                  </p>
-                  <p class="lead">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt expedita, veniam fugit quidem impedit molestias veritatis alias exercitationem animi modi iste. Itaque vero quo, ducimus dolore dolorem laboriosam quia neque et fugiat error iste omnis incidunt. Veniam aspernatur delectus labore eaque commodi minus, quam unde consectetur suscipit tempora, magni placeat!
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About Me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Sunt expedita, veniam fugit quidem impedit molestias
+                      veritatis alias exercitationem animi modi iste. Itaque
+                      vero quo, ducimus dolore dolorem laboriosam quia neque et
+                      fugiat error iste omnis incidunt. Veniam aspernatur
+                      delectus labore eaque commodi minus, quam unde consectetur
+                      suscipit tempora, magni placeat!
                     </p>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Sunt expedita, veniam fugit quidem impedit molestias
+                      veritatis alias exercitationem animi modi iste. Itaque
+                      vero quo, ducimus dolore dolorem laboriosam quia neque et
+                      fugiat error iste omnis incidunt. Veniam aspernatur
+                      delectus labore eaque commodi minus, quam unde consectetur
+                      suscipit tempora, magni placeat!
+                    </p>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Sunt expedita, veniam fugit quidem impedit molestias
+                      veritatis alias exercitationem animi modi iste. Itaque
+                      vero quo, ducimus dolore dolorem laboriosam quia neque et
+                      fugiat error iste omnis incidunt. Veniam aspernatur
+                      delectus labore eaque commodi minus, quam unde consectetur
+                      suscipit tempora, magni placeat!
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Portfolio -->
-<section id="portfolio" class="portfolio-mf sect-pt4 route">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="title-box text-center">
-          <h3 class="title-a">
-            Portfolio
-          </h3>
-          <p class="subtitle-a">
-            Lorem ipsum dolor sit amet consectetur.
-          </p>
-          <div class="line-mf"></div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="work-box">
-          <a href="project placeholder" data-lightbox="gallary-mf">
-            <div class="work-img">
-              <img src="placeholder project1" alt="" class="img-fluid">
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <div class="line-mf"></div>
             </div>
-            <div class="work-content">
-              <div class="row">
-                <div class="col-sm-8">
-                  <h2 class="w-title">Project-JAW</h2>
-                  <div class="w-more">
-                    <span class="w-ctegory">Web Design</span> / <span class="w-date">March 30, 2019</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="w-like">
-                    <span class="ion-ios-plus-outline"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-          <div class="work-box">
-            <a href="project placeholder" data-lightbox="gallary-mf">
-              <div class="work-img">
-                <img src="placeholder project2" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Asteroid Party</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">April 29, 2019</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
             <div class="work-box">
               <a href="project placeholder" data-lightbox="gallary-mf">
                 <div class="work-img">
-                  <img src="placeholder project3" alt="" class="img-fluid">
+                  <img src="placeholder project1" alt="" class="img-fluid" />
                 </div>
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
                       <h2 class="w-title">Project-JAW</h2>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> / <span class="w-date">May 24, 2019</span>
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">March 30, 2019</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -244,117 +285,225 @@
               </a>
             </div>
           </div>
-    </div>
-  </div>
-</section>
-
-<section id="resume" class="resume-mf sect-pt4 route">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="title-box text-center">
-          <h3 class="title-a">
-            Résumé
-          </h3>
-          <p class="subtitle-a">
-            Lorem ipsum dolor sit amet.
-          </p>
-          <div class="line-mf"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url()">
-  <div class="overlay-mf"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="contact-mf">
-          <div id="contact" class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-              <div class="title-box-2">
-                <h5 class="title-left">
-                  Send Me a Message
-                </h5>
-              </div>
-              <div>
-                <form action="" method="POST" role="form" class="contactForm">
-                  <div id="sendmessage">Your message has been sent. Thank You!</div>
-                  <div id="errormessage"></div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="project placeholder" data-lightbox="gallary-mf">
+                <div class="work-img">
+                  <img src="placeholder project2" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
                   <div class="row">
-                    <div class="col-md-12 mb-3">
-                      <div class="form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                        <div class="validation"></div>
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Asteroid Party</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">April 29, 2019</span>
                       </div>
                     </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="form-group">
-                          <input type="email" name="email" class="form-control" id="email" placeholder="Your E-Mail" data-rule="email" data-msg="Please enter a valid E-Mail">
-                          <div class="validation"></div>
-                        </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
                       </div>
-                      <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" data-rule="minlen:8" data-msg="Please enter at least 8 chars">
-                            <div class="validation"></div>
-                          </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="project placeholder" data-lightbox="gallary-mf">
+                <div class="work-img">
+                  <img src="placeholder project3" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Project-JAW</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Web Design</span> /
+                        <span class="w-date">May 24, 2019</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Résumé
+              </h3>
+              <p class="subtitle-a">
+                Lorem ipsum dolor sit amet.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url()"
+    >
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Me a Message
+                      </h5>
+                    </div>
+                    <div>
+                      <form
+                        action=""
+                        method="POST"
+                        role="form"
+                        class="contactForm"
+                      >
+                        <div id="sendmessage">
+                          Your message has been sent. Thank You!
                         </div>
-                        <div class="col-md-12 mb-3">
+                        <div id="errormessage"></div>
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="message" class="form-control" id="message" placeholder="Message" rows="5" data-rule="required" data-msg="Please write something">
+                              <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                id="name"
+                                placeholder="Your Name"
+                                data-rule="minlen:4"
+                                data-msg="Please enter at least 4 chars"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                name="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="Your E-Mail"
+                                data-rule="email"
+                                data-msg="Please enter a valid E-Mail"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                name="subject"
+                                class="form-control"
+                                id="subject"
+                                placeholder="Subject"
+                                data-rule="minlen:8"
+                                data-msg="Please enter at least 8 chars"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                placeholder="Message"
+                                rows="5"
+                                data-rule="required"
+                                data-msg="Please write something"
+                              />
                               <div class="validation"></div>
                             </div>
                           </div>
                           <div class="col-md-12">
-                            <button type="submit" class="button button-a button-big button-rounded">Send Message</button>
+                            <button
+                              type="submit"
+                              class="button button-a button-big button-rounded"
+                            >
+                              Send Message
+                            </button>
                           </div>
+                        </div>
+                      </form>
+                    </div>
                   </div>
-                </form>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Find me on
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laborum unde eius id porro culpa, veritatis ipsum
+                        accusamus autem a exercitationem corrupti labore
+                        doloremque? Sint ipsum ab, voluptate beatae commodi sit.
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="ion-ios-location"></span></li>
+                        <li><span class="ion-ios-telephone"></span></li>
+                        <li><span class="ion-email"></span></li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li>
+                          <a href=""
+                            ><span class="ico-circle"
+                              ><i class="fa fa-facebook"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><span class="ico-circle"
+                              ><i class="fa fa-linkedin"></i></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-          </div>
-          <div class="col-md-6">
-            <div class="title-box-2 pt-4 pt-md-0">
-              <h5 class="title-left">
-                Find me on
-              </h5>
-            </div>
-            <div class="more-info">
-              <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde eius id porro culpa, veritatis ipsum accusamus autem a exercitationem corrupti labore doloremque? Sint ipsum ab, voluptate beatae commodi sit.
-              </p>
-              <ul class="list-ico">
-                <li><span class="ion-ios-location"></span></li>
-                <li><span class="ion-ios-telephone"></span></li>
-                <li><span class="ion-email"></span></li>
-              </ul>
-            </div>
-            <div class="socials">
-              <ul>
-                <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                <li><a href=""><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                <li><a href=""><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-              </ul>
-            </div>
-          </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-</section>
-
-
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
 
 
-
-
-
-<script src="./assets/javascript/app.js"></script>
-</body>
+    <script src="./assets/javascript/app.js"></script>
+  </body>
 </html>
