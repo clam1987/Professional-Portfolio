@@ -734,6 +734,14 @@ body {
   .w-title {
     font-size: 1.2rem;
   }
+
+  .g-title {
+    font-size: 1.2rem;
+  }
+
+  .l-title {
+    font-size: 1.2rem;
+  }
   
   /* Contact */
 
@@ -781,7 +789,7 @@ body {
     font-size: 13px;
   }
   
-/* Button Plus Media Querrys*/
+/* Button Plus Media Queries*/
 
 .button {
     display: inline-block;
