@@ -679,7 +679,39 @@ body {
   .skill-mf .progress .progress-bar {
     height: .7rem;
     background-color: #0078ff;
+    visibility: hidden;
+    /* animation: progress 3s ease-in-out forwards;
+    -webkit-animation: progress 3s ease-in-out forwards; */
   }
+
+/* Animation for Progress Bar */
+/* @keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
+
+/* .progress-value {
+  background-color: #673ab7;
+  transition: 0.3s all linear;
+  border-radius: 1.25em;
+  height: 16px;
+  display: inline-block;
+  animation: progress 3s ease-in-out forwards;
+  -webkit-animation: progress 3s ease-in-out forwards;
+} */
 
 /* Portfolio */
   

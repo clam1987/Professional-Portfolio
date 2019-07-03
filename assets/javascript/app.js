@@ -77,3 +77,31 @@ if ($('.text-slider').length == 1) {
         backSpeed: 30
     });
 }
+
+// Animation
+progress = (percent, $el) => {
+    $el.css('visibility', 'visible');
+    let progressBarWidth = percent * el.width() / 100;
+
+    $el.find('div').animate({ width: progressBarWidth }, 500).html(percent + "%&nbsp;");
+}
+
+let globalValues = 0;
+
+let animationProgressBar = () => {
+    if (globalValues < 100) {
+        // Makes sure the bars are visible
+        $("#progress-bar").show();
+        globalValues = globalValues + 4;
+        progress(globalValues, $('#progress-bar'));
+        setTimeout(animationProgressBar, 500);
+    } else {
+        alert("Done");
+        // Set progress to zero and then hide bar
+        globalValues = 0;
+        progress(globalValues, $('#progress-bar'));
+        $("#progress-bar").hide();
+    }
+}
+
+animationProgressBar();
