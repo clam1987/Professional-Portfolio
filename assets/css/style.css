@@ -679,13 +679,13 @@ body {
   .skill-mf .progress .progress-bar {
     height: .7rem;
     background-color: #0078ff;
-    visibility: hidden;
-    /* animation: progress 3s ease-in-out forwards;
-    -webkit-animation: progress 3s ease-in-out forwards; */
+    /* visibility: hidden; */
+    animation: progress 3s ease-in-out forwards;
+    -webkit-animation: progress 3s ease-in-out forwards;
   }
 
 /* Animation for Progress Bar */
-/* @keyframes progress {
+@keyframes progress {
   from {
     width: 0;
   }
@@ -701,7 +701,7 @@ body {
   to {
     width: 100%;
   }
-} */
+}
 
 /* .progress-value {
   background-color: #673ab7;
