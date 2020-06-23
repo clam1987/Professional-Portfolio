@@ -104,4 +104,4 @@ let animationProgressBar = () => {
     }
 }
 
-animationProgressBar();
+// animationProgressBar();

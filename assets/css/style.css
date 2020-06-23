@@ -128,8 +128,9 @@ body {
 .title-s {
     font-weight: 600;
     color: #1e1e1e;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
+
 
 /* Title A */
 .title-box {
@@ -684,6 +685,10 @@ body {
     -webkit-animation: progress 3s ease-in-out forwards;
   }
 
+  .about-info {
+    font-size: 1.5rem
+  }
+
 /* Animation for Progress Bar */
 @keyframes progress {
   from {
@@ -730,6 +735,8 @@ body {
   .work-img {
     display: block;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
   }
   
   .work-img img {
